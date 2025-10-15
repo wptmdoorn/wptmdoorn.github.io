@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 # 1) Load data
-url = 'http://wptmdoorn.github.io/data/FTIR%20data_train_studenten.csv'
+url = 'http://wptmdoorn.github.io/onderwijs/aipracticumbmt/FTIR%20data_train_studenten.csv'
 T = pd.read_csv(url, delimiter=';', engine='python')
 
 labelVar = 'cholesterol_mmol_L'
