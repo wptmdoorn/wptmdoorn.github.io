@@ -5,7 +5,7 @@ clear; clc; close all;
 
 %% 1) Load data 
 
-url = 'https://wptmdoorn.github.io/data/FTIR%20data_train_studenten.csv'; 
+url = 'http://wptmdoorn.github.io/onderwijs/aipracticumbmt/FTIR%20data_train_studenten.csv'; 
 T = readtable(url, 'Delimiter', ';', 'PreserveVariableNames', true); 
 
 labelVar = 'cholesterol_mmol_L'; 
